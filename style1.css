@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(31, 31, 253);
+}
+section{
+    height: 400px;
+}
+.input{
+    position: relative;
+    top: 100px;
+    /* left: 20px; */
+}
+.input input{
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 7px 15px;
+}
+.hide{
+    display: none;
+}
+.bt{
+    display: flex;
+    gap: 5rem;
+}
+.active{
+    color: black !important;
+}
+.exp-btn{
+    font-size: 1.3rem;
+    color: #858383;
+    cursor: pointer;
+}
+.inc-btn{
+    font-size: 1.3rem;
+    color: #858383;
+    cursor: pointer;
+}
+.all-btn{
+    font-size: 1.3rem;
+    color: #858383;
+    cursor: pointer;
+    
+
+}
+li{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    position: relative;
+    left: 10px;
+}
+.inc{
+    color: red;
+}
